@@ -860,7 +860,7 @@
                       "fill": "$--foreground",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "john.doe@email.com",
+                      "content": "john.doe1@email.com",
                       "lineHeight": 1.4285714285714286,
                       "textAlignVertical": "middle",
                       "fontFamily": "$--font-secondary",
