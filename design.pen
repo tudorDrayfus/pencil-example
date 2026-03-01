@@ -1,0 +1,72 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "Uhrgh",
+      "x": 593,
+      "y": 49,
+      "name": "hero-container",
+      "height": 185,
+      "fill": "#ffffffff",
+      "cornerRadius": 8,
+      "layout": "vertical",
+      "gap": 32,
+      "padding": 16,
+      "children": [
+        {
+          "type": "frame",
+          "id": "8M1Xp",
+          "name": "hero-container-text",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "text",
+              "id": "qq2W2",
+              "name": "hero-headlinne",
+              "fill": "#000000",
+              "content": "Hero headline",
+              "fontFamily": "Merriweather",
+              "fontSize": 48,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "5QM3w",
+              "fill": "#000000",
+              "content": "Subtitle content goes here",
+              "fontFamily": "Albert Sans",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "qWTpf",
+          "name": "cta-button",
+          "clip": true,
+          "fill": "#1a1a1aff",
+          "cornerRadius": 8,
+          "layout": "vertical",
+          "padding": [
+            12,
+            20
+          ],
+          "justifyContent": "end",
+          "children": [
+            {
+              "type": "text",
+              "id": "QBBCW",
+              "fill": "#ffffffff",
+              "content": "Button",
+              "fontFamily": "Albert Sans",
+              "fontSize": 16,
+              "fontWeight": "500"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
