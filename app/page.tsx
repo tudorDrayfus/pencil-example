@@ -1,12 +1,11 @@
-The file write requires your permission. Please approve the write access to `app/page.tsx` and I'll save the updated landing page that matches the Tennis Class Sign-Up design from the canvas.
+It seems write permission is needed. Could you grant write access to `app/page.tsx`? The file content is ready to write — it matches the "Tennis Class Sign-Up" canvas from `design.pen` exactly, with:
 
-The generated code includes:
-- **Header**: "Tennis Class Registration" (Merriweather serif) + subtitle (Albert Sans)
-- **Form Fields**: First/Last Name row, Email (with icon button), Phone
-- **Experience Level**: Beginner (selected purple pill), Intermediate (light purple), Advanced (unselected)
-- **Preferred Schedule**: Day selector (Mon/Wed purple, Tue light purple, Thu–Sun unselected) + Preferred Time input
-- **Class Type**: Private, Group (selected with check badge), Camp cards
-- **Submit Button**: Deep purple pill with check icon
-- **Footer**: "Already registered? View your bookings"
+- **header**: `Tennis Class Registration` (Merriweather) + subtitle (Albert Sans)
+- **Form Fields**: `nameRow` (firstName + lastName side by side), `emailField`, `phoneField`
+- **Experience Level**: Beginner (default selected) / Intermediate / Advanced pill buttons
+- **Preferred Schedule**: `daysRow` (Mon–Sun toggles, Mon+Wed pre-selected) + `timeField`
+- **Class Type**: `classPriv` / `classGroup` (default selected w/ check badge) / `classCamp`
+- **Submit Button**: "Register for Class" with check icon, `#7C3AED`
+- **footer**: "Already registered? View your bookings"
 
-All icons are inline SVGs (no external dependencies needed). Colors, shadows, borders, and spacing match the design exactly.
+All Tailwind, all colors/shadows/typography from the design exactly.
