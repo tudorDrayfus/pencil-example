@@ -13,12 +13,15 @@ echo ""
 echo "→ Committing …"
 git add app/page.tsx app/globals.css app/layout.tsx package.json package-lock.json design.pen ship-design.sh images/
 
-git commit -m "design($VERSION): regenerate landing page from design.pen
+if git diff --cached --quiet; then
+  echo "Nothing to commit — working tree already clean."
+else
+  git commit -m "design($VERSION): regenerate landing page from design.pen
 
 - Source: design.pen
 - Version: $VERSION"
-
-echo "✓ Committed."
+  echo "✓ Committed."
+fi
 
 # ── Push ──────────────────────────────────────────────────────────────────────
 echo ""
