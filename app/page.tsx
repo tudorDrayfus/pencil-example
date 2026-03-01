@@ -1,191 +1,243 @@
+import { Compass, Folder, Users, Bookmark, Search, Plus, ArrowUp, MessageCircle, GitBranch } from "lucide-react";
+
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[var(--background)] flex items-center justify-center py-12 px-4">
-      <div className="w-full max-w-[520px] bg-white rounded-3xl p-9 flex flex-col gap-8 shadow-[0_4px_24px_rgba(0,0,0,0.063)]">
+    <div className="min-h-screen bg-[#FAFAFA] flex items-center justify-center p-8">
+      <div className="flex w-full max-w-[1200px] h-[820px] rounded-xl overflow-hidden bg-[#FAFAFA] border border-[#E5E5E5]">
 
-        <div className="flex flex-col gap-2 w-full">
-          <h1 className="font-merriweather text-[48px] font-normal text-[var(--foreground)] leading-tight">
-            Tennis Class Registration 1/3
-          </h1>
-          <p className="font-albert-sans text-base font-normal text-[var(--foreground)]">
-            Sign up for your next session on the court
-          </p>
-        </div>
+        {/* Sidebar */}
+        <aside className="w-[240px] shrink-0 h-full bg-white flex flex-col gap-8 p-6 pt-8 pb-6">
+          {/* Logo */}
+          <div className="flex items-center gap-[10px]">
+            <div className="w-7 h-7 rounded-[6px] bg-[#0D6E6E]" />
+            <span className="font-merriweather text-[20px] font-medium text-[#1A1A1A]">workstream</span>
+          </div>
 
-        <div className="flex flex-col gap-5 w-full">
-          <div className="flex gap-4 w-full">
-            <div className="flex flex-col gap-1.5 flex-1">
-              <label className="font-albert-sans text-sm font-medium text-[var(--foreground)] leading-[1.43]">
-                First Name
-              </label>
-              <div className="flex items-center gap-2 bg-[var(--accent)] border-2 border-[#8B5CF6] rounded-full px-6 py-[18px] shadow-[0_0_8px_rgba(139,92,246,0.125)]">
-                <input
-                  type="text"
-                  defaultValue="John"
-                  className="bg-transparent font-albert-sans text-sm text-[var(--foreground)] w-full outline-none leading-[1.43]"
-                />
+          {/* Nav */}
+          <nav className="flex flex-col gap-1">
+            <div className="flex items-center gap-3 bg-[#F0F5F5] rounded-lg px-[14px] py-[10px]">
+              <Compass size={20} className="text-[#0D6E6E]" />
+              <span className="font-inter text-sm font-medium text-[#0D6E6E]">Explore</span>
+            </div>
+            <div className="flex items-center gap-3 rounded-lg px-[14px] py-[10px]">
+              <Folder size={20} className="text-[#888888]" />
+              <span className="font-inter text-sm text-[#666666]">Projects</span>
+            </div>
+            <div className="flex items-center gap-3 rounded-lg px-[14px] py-[10px]">
+              <Users size={20} className="text-[#888888]" />
+              <span className="font-inter text-sm text-[#666666]">Collaborators</span>
+            </div>
+            <div className="flex items-center gap-3 rounded-lg px-[14px] py-[10px]">
+              <Bookmark size={20} className="text-[#888888]" />
+              <span className="font-inter text-sm text-[#666666]">Saved</span>
+            </div>
+          </nav>
+
+          {/* Spacer */}
+          <div className="flex-1" />
+
+          {/* Profile */}
+          <div className="flex items-center gap-[10px]">
+            <div className="w-8 h-8 rounded-full bg-[#0D6E6E] shrink-0" />
+            <div className="flex flex-col gap-0.5">
+              <span className="font-inter text-[13px] font-medium text-[#1A1A1A]">Sarah Chen</span>
+              <span className="font-inter text-[11px] text-[#888888]">Product Designer</span>
+            </div>
+          </div>
+        </aside>
+
+        {/* Main Content */}
+        <main className="flex-1 h-full flex flex-col gap-7 px-10 py-8 overflow-hidden">
+
+          {/* Top Bar */}
+          <div className="flex items-center justify-between shrink-0">
+            <h1 className="font-merriweather text-[28px] font-medium text-[#1A1A1A]">Explore</h1>
+            <div className="flex items-center gap-3">
+              <div className="flex items-center gap-2 bg-[#F0F0F0] rounded-lg px-[14px] py-2 w-[220px]">
+                <Search size={16} className="text-[#AAAAAA] shrink-0" />
+                <span className="font-inter text-[13px] text-[#AAAAAA]">Search work, people...</span>
+              </div>
+              <div className="flex items-center gap-2 bg-[#0D6E6E] rounded-lg px-4 py-2 cursor-pointer">
+                <Plus size={16} className="text-white" />
+                <span className="font-inter text-[13px] font-medium text-white">Share Work</span>
               </div>
             </div>
-            <div className="flex flex-col gap-1.5 flex-1">
-              <label className="font-albert-sans text-sm font-medium text-[var(--foreground)] leading-[1.43]">
-                Last Name
-              </label>
-              <div className="flex items-center gap-2 bg-[var(--accent)] border-[1.5px] border-[#8B5CF6] rounded-full px-6 py-[18px] shadow-[0_0_6px_rgba(139,92,246,0.125)]">
-                <input
-                  type="text"
-                  defaultValue="Doe"
-                  className="bg-transparent font-albert-sans text-sm text-[var(--foreground)] w-full outline-none leading-[1.43]"
-                />
+          </div>
+
+          {/* Feed Grid */}
+          <div className="flex gap-5 flex-1 overflow-hidden">
+
+            {/* Column 1 */}
+            <div className="flex flex-col gap-5 flex-1 overflow-y-auto">
+
+              {/* Card 1 */}
+              <div className="bg-white rounded-[10px] border border-[#E5E5E5] overflow-hidden shrink-0">
+                <div className="h-[200px] w-full overflow-hidden bg-[#CCCCCC]">
+                  <img
+                    src="/images/generated-1772352714527.png"
+                    alt="Analytics dashboard redesign"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="p-4 flex flex-col gap-3">
+                  <div className="flex items-center gap-[10px]">
+                    <div className="w-7 h-7 rounded-full bg-[#E07B54] shrink-0" />
+                    <div className="flex flex-col gap-[1px]">
+                      <span className="font-inter text-[13px] font-medium text-[#1A1A1A]">Alex Rivera</span>
+                      <span className="font-mono text-[10px] font-medium text-[#AAAAAA]">2h ago</span>
+                    </div>
+                  </div>
+                  <p className="font-merriweather text-[15px] font-medium text-[#1A1A1A] leading-[1.4]">
+                    Redesigned the analytics dashboard — focused on reducing cognitive load while keeping data density.
+                  </p>
+                  <div className="flex gap-1.5">
+                    <span className="bg-[#F0F5F5] rounded px-[10px] py-1 font-mono text-[10px] font-semibold text-[#0D6E6E]">Design</span>
+                    <span className="bg-[#F0F0F0] rounded px-[10px] py-1 font-mono text-[10px] font-semibold text-[#888888]">Dashboard</span>
+                  </div>
+                  <div className="flex items-center gap-4">
+                    <div className="flex items-center gap-1.5">
+                      <ArrowUp size={16} className="text-[#AAAAAA]" />
+                      <span className="font-mono text-[11px] font-medium text-[#888888]">24</span>
+                    </div>
+                    <div className="flex items-center gap-1.5">
+                      <MessageCircle size={16} className="text-[#AAAAAA]" />
+                      <span className="font-mono text-[11px] font-medium text-[#888888]">8</span>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
 
-          <div className="flex flex-col gap-1.5 w-full">
-            <label className="font-albert-sans text-sm font-medium text-[var(--foreground)] leading-[1.43]">
-              Email Address
-            </label>
-            <div className="flex items-center gap-2 bg-[var(--accent)] border-[1.5px] border-[#8B5CF6] rounded-full px-6 py-[18px] shadow-[0_0_6px_rgba(139,92,246,0.125)]">
-              <input
-                type="email"
-                defaultValue="john.doe1@email.com"
-                className="bg-transparent font-albert-sans text-sm text-[var(--foreground)] w-full outline-none leading-[1.43]"
-              />
-            </div>
-          </div>
-
-          <div className="flex flex-col gap-1.5 w-full">
-            <label className="font-albert-sans text-sm font-medium text-[var(--foreground)] leading-[1.43]">
-              Phone Number
-            </label>
-            <div className="flex items-center gap-2 bg-[var(--accent)] border-[1.5px] border-[#8B5CF6] rounded-full px-6 py-[18px] shadow-[0_0_6px_rgba(139,92,246,0.125)]">
-              <input
-                type="tel"
-                defaultValue="+1 (555) 123-4567"
-                className="bg-transparent font-albert-sans text-sm text-[var(--foreground)] w-full outline-none leading-[1.43]"
-              />
-            </div>
-          </div>
-        </div>
-
-        <div className="flex flex-col gap-2.5 w-full">
-          <span className="font-inter text-sm font-medium text-[var(--foreground)] leading-[1.43]">
-            Experience Level
-          </span>
-          <div className="flex gap-2.5 w-full">
-            <button className="flex-1 flex items-center justify-center gap-2 h-12 rounded-full bg-[#8B5CF6] shadow-[0_3px_10px_rgba(139,92,246,0.375)] px-4">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <circle cx="12" cy="12" r="10"/>
-                <circle cx="12" cy="12" r="3" fill="white" stroke="white"/>
-              </svg>
-              <span className="font-inter text-sm font-semibold text-white">Beginner</span>
-            </button>
-            <button className="flex-1 flex items-center justify-center gap-2 h-12 rounded-full bg-[#EDE9FE] border-[1.5px] border-[#8B5CF6] shadow-[0_2px_8px_rgba(139,92,246,0.145)] px-4">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <circle cx="12" cy="12" r="10"/>
-              </svg>
-              <span className="font-inter text-sm font-semibold text-[#6D28D9]">Intermediate</span>
-            </button>
-            <button className="flex-1 flex items-center justify-center gap-2 h-12 rounded-full bg-[#FAF9FE] border border-[#D4D4D8] shadow-[0_2px_6px_rgba(0,0,0,0.063)] px-4">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#71717A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <circle cx="12" cy="12" r="10"/>
-              </svg>
-              <span className="font-inter text-sm font-medium text-[var(--foreground)]">Advanced</span>
-            </button>
-          </div>
-        </div>
-
-        <div className="flex flex-col gap-2.5 w-full">
-          <span className="font-inter text-sm font-medium text-[var(--foreground)] leading-[1.43]">
-            Preferred Schedule
-          </span>
-          <div className="flex justify-between w-full">
-            <div className="flex items-center justify-center w-[52px] h-[52px] rounded-[18px] bg-[#8B5CF6]">
-              <span className="font-inter text-xs font-semibold text-white">Mon</span>
-            </div>
-            <div className="flex items-center justify-center w-[52px] h-[52px] rounded-[18px] bg-[#EDE9FE] border-[1.5px] border-[#8B5CF6] shadow-[0_2px_6px_rgba(139,92,246,0.082)]">
-              <span className="font-inter text-xs font-semibold text-[#6D28D9]">Tue</span>
-            </div>
-            <div className="flex items-center justify-center w-[52px] h-[52px] rounded-[18px] bg-[#8B5CF6]">
-              <span className="font-inter text-xs font-semibold text-white">Wed</span>
-            </div>
-            <div className="flex items-center justify-center w-[52px] h-[52px] rounded-[18px] bg-[#FAF9FE] border border-[#D4D4D8] shadow-[0_2px_6px_rgba(0,0,0,0.063)]">
-              <span className="font-inter text-xs font-medium text-[var(--foreground)]">Thu</span>
-            </div>
-            <div className="flex items-center justify-center w-[52px] h-[52px] rounded-[18px] bg-[#FAF9FE] border border-[#D4D4D8] shadow-[0_2px_6px_rgba(0,0,0,0.063)]">
-              <span className="font-inter text-xs font-medium text-[var(--foreground)]">Fri</span>
-            </div>
-            <div className="flex items-center justify-center w-[52px] h-[52px] rounded-[18px] bg-[#FAF9FE] border border-[#D4D4D8] shadow-[0_2px_6px_rgba(0,0,0,0.063)]">
-              <span className="font-inter text-xs font-medium text-[var(--foreground)]">Sat</span>
-            </div>
-            <div className="flex items-center justify-center w-[52px] h-[52px] rounded-[18px] bg-[#FAF9FE] border border-[#D4D4D8] shadow-[0_2px_6px_rgba(0,0,0,0.063)]">
-              <span className="font-inter text-xs font-medium text-[var(--foreground)]">Sun</span>
-            </div>
-          </div>
-          <div className="flex flex-col gap-1.5 w-full">
-            <label className="font-albert-sans text-sm font-medium text-[var(--foreground)] leading-[1.43]">
-              Preferred Time
-            </label>
-            <div className="flex items-center gap-2 bg-[var(--accent)] border-[1.5px] border-[#8B5CF6] rounded-full px-6 py-[18px] shadow-[0_0_6px_rgba(139,92,246,0.125)]">
-              <input
-                type="text"
-                placeholder="6:00 PM - 7:30 PM"
-                className="bg-transparent font-albert-sans text-sm text-[var(--muted-foreground)] w-full outline-none leading-[1.43]"
-              />
-            </div>
-          </div>
-        </div>
-
-        <div className="flex flex-col gap-2.5 w-full">
-          <span className="font-inter text-sm font-medium text-[var(--foreground)] leading-[1.43]">
-            Class Type
-          </span>
-          <div className="flex gap-2.5 w-full">
-            <button className="flex-1 flex flex-col items-center justify-center gap-1 h-20 rounded-[20px] bg-[#FAF9FE] border border-[#D4D4D8] shadow-[0_3px_8px_rgba(0,0,0,0.063)] p-4">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#71717A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
-                <circle cx="12" cy="7" r="4"/>
-              </svg>
-              <span className="font-inter text-[13px] font-medium text-[var(--foreground)]">Private</span>
-            </button>
-            <button className="flex-1 flex flex-col items-center justify-center gap-1 h-20 rounded-[20px] bg-[#EDE9FE] border-2 border-[#8B5CF6] shadow-[0_4px_12px_rgba(139,92,246,0.188)] p-4 relative">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
-                <circle cx="9" cy="7" r="4"/>
-                <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
-                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
-              </svg>
-              <span className="font-inter text-[13px] font-semibold text-[#8B5CF6]">Group</span>
-              <div className="absolute top-2 right-2 w-[18px] h-[18px] rounded-full bg-[#8B5CF6] flex items-center justify-center">
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                  <polyline points="20 6 9 17 4 12"/>
-                </svg>
+              {/* Card 2 */}
+              <div className="bg-white rounded-[10px] border border-[#E5E5E5] overflow-hidden shrink-0">
+                <div className="p-4 flex flex-col gap-3">
+                  <div className="flex items-center gap-[10px]">
+                    <div className="w-7 h-7 rounded-full bg-[#6B5CE7] shrink-0" />
+                    <div className="flex flex-col gap-[1px]">
+                      <span className="font-inter text-[13px] font-medium text-[#1A1A1A]">Mika Tanaka</span>
+                      <span className="font-mono text-[10px] font-medium text-[#AAAAAA]">5h ago</span>
+                    </div>
+                  </div>
+                  <p className="font-merriweather text-[15px] font-medium text-[#1A1A1A] leading-[1.4]">
+                    Open-sourced our component library. 40+ accessible primitives, zero dependencies. Looking for contributors.
+                  </p>
+                  <div className="flex gap-1.5">
+                    <span className="bg-[#F0F5F5] rounded px-[10px] py-1 font-mono text-[10px] font-semibold text-[#0D6E6E]">Open Source</span>
+                    <span className="bg-[#F0F0F0] rounded px-[10px] py-1 font-mono text-[10px] font-semibold text-[#888888]">Engineering</span>
+                  </div>
+                  <div className="flex items-center gap-4">
+                    <div className="flex items-center gap-1.5">
+                      <ArrowUp size={16} className="text-[#0D6E6E]" />
+                      <span className="font-mono text-[11px] font-medium text-[#0D6E6E]">87</span>
+                    </div>
+                    <div className="flex items-center gap-1.5">
+                      <MessageCircle size={16} className="text-[#AAAAAA]" />
+                      <span className="font-mono text-[11px] font-medium text-[#888888]">12</span>
+                    </div>
+                    <div className="flex items-center gap-1.5 bg-[#F0F5F5] rounded-[6px] px-[10px] py-1 cursor-pointer">
+                      <GitBranch size={14} className="text-[#0D6E6E]" />
+                      <span className="font-inter text-[11px] font-medium text-[#0D6E6E]">Collaborate</span>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </button>
-            <button className="flex-1 flex flex-col items-center justify-center gap-1 h-20 rounded-[20px] bg-[#FAF9FE] border border-[#D4D4D8] shadow-[0_3px_8px_rgba(0,0,0,0.063)] p-4">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#71717A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M3.5 21 14 3"/>
-                <path d="M20.5 21 10 3"/>
-                <path d="M15.5 21 12 15l-3.5 6"/>
-                <path d="M2 21h20"/>
-              </svg>
-              <span className="font-inter text-[13px] font-medium text-[var(--foreground)]">Camp</span>
-            </button>
+
+            </div>
+
+            {/* Column 2 */}
+            <div className="flex flex-col gap-5 flex-1 overflow-y-auto">
+
+              {/* Card 3 */}
+              <div className="bg-white rounded-[10px] border border-[#E5E5E5] overflow-hidden shrink-0">
+                <div className="h-[160px] w-full overflow-hidden bg-[#CCCCCC]">
+                  <img
+                    src="/images/generated-1772352747885.png"
+                    alt="Mobile banking app v2"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="p-4 flex flex-col gap-3">
+                  <div className="flex items-center gap-[10px]">
+                    <div className="w-7 h-7 rounded-full bg-[#D4A853] shrink-0" />
+                    <div className="flex flex-col gap-[1px]">
+                      <span className="font-inter text-[13px] font-medium text-[#1A1A1A]">Jordan Lee</span>
+                      <span className="font-mono text-[10px] font-medium text-[#AAAAAA]">1d ago</span>
+                    </div>
+                  </div>
+                  <p className="font-merriweather text-[15px] font-medium text-[#1A1A1A] leading-[1.4]">
+                    Shipped v2 of our mobile banking app. Simplified flows, reduced steps to send money from 5 to 2.
+                  </p>
+                  <div className="flex gap-1.5">
+                    <span className="bg-[#F0F0F0] rounded px-[10px] py-1 font-mono text-[10px] font-semibold text-[#888888]">Mobile</span>
+                    <span className="bg-[#F0F0F0] rounded px-[10px] py-1 font-mono text-[10px] font-semibold text-[#888888]">Fintech</span>
+                  </div>
+                  <div className="flex items-center gap-4">
+                    <div className="flex items-center gap-1.5">
+                      <ArrowUp size={16} className="text-[#AAAAAA]" />
+                      <span className="font-mono text-[11px] font-medium text-[#888888]">42</span>
+                    </div>
+                    <div className="flex items-center gap-1.5">
+                      <MessageCircle size={16} className="text-[#AAAAAA]" />
+                      <span className="font-mono text-[11px] font-medium text-[#888888]">5</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Collaborators Section */}
+              <div className="bg-white rounded-[10px] border border-[#E5E5E5] p-4 flex flex-col gap-3.5 shrink-0">
+                <span className="font-mono text-[11px] font-semibold text-[#888888] tracking-[2px]">LOOKING TO BUILD</span>
+
+                {/* Person 1 */}
+                <div className="flex items-center justify-between gap-3">
+                  <div className="flex items-center gap-[10px]">
+                    <div className="w-8 h-8 rounded-full bg-[#3B82F6] shrink-0" />
+                    <div className="flex flex-col gap-0.5">
+                      <span className="font-inter text-[13px] font-medium text-[#1A1A1A]">Nina Patel</span>
+                      <span className="font-inter text-[11px] text-[#888888]">iOS dev — building a habit tracker</span>
+                    </div>
+                  </div>
+                  <button className="bg-[#F0F5F5] rounded-[6px] px-[10px] py-1 shrink-0 cursor-pointer">
+                    <span className="font-inter text-[11px] font-medium text-[#0D6E6E]">Connect</span>
+                  </button>
+                </div>
+
+                <div className="h-px bg-[#F0F0F0]" />
+
+                {/* Person 2 */}
+                <div className="flex items-center justify-between gap-3">
+                  <div className="flex items-center gap-[10px]">
+                    <div className="w-8 h-8 rounded-full bg-[#10B981] shrink-0" />
+                    <div className="flex flex-col gap-0.5">
+                      <span className="font-inter text-[13px] font-medium text-[#1A1A1A]">Sam Wright</span>
+                      <span className="font-inter text-[11px] text-[#888888]">Brand designer — needs a frontend dev</span>
+                    </div>
+                  </div>
+                  <button className="bg-[#F0F5F5] rounded-[6px] px-[10px] py-1 shrink-0 cursor-pointer">
+                    <span className="font-inter text-[11px] font-medium text-[#0D6E6E]">Connect</span>
+                  </button>
+                </div>
+
+                <div className="h-px bg-[#F0F0F0]" />
+
+                {/* Person 3 */}
+                <div className="flex items-center gap-3">
+                  <div className="flex items-center gap-[10px] flex-1">
+                    <div className="w-8 h-8 rounded-full bg-[#F59E0B] shrink-0" />
+                    <div className="flex flex-col gap-0.5">
+                      <span className="font-inter text-[13px] font-medium text-[#1A1A1A]">Rui Costa</span>
+                      <span className="font-inter text-[11px] text-[#888888]">Data eng — open to side projects</span>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
           </div>
-        </div>
-
-        <button className="w-full flex items-center justify-center gap-2 h-14 rounded-full bg-[#7C3AED] shadow-[0_8px_20px_-2px_rgba(139,92,246,0.313)]">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <polyline points="20 6 9 17 4 12"/>
-          </svg>
-          <span className="font-inter text-base font-semibold text-white">Register for Class</span>
-        </button>
-
-        <div className="flex items-center justify-center gap-1">
-          <span className="font-inter text-[13px] text-[#71717A]">Already registered?</span>
-          <a href="#" className="font-inter text-[13px] font-bold text-[#8B5CF6]">View your bookings</a>
-        </div>
+        </main>
 
       </div>
-    </main>
+    </div>
   );
 }
