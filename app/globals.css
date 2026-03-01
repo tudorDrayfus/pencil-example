@@ -2,7 +2,11 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #2A2933;
+  --muted-foreground: #616167;
+  --accent: #F5F5F5;
+  --border: #C5C5CB;
+  --white: #FFFFFF;
 }
 
 @theme inline {
@@ -12,17 +16,9 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 @layer base {
@@ -32,5 +28,9 @@ body {
 
   .font-albert-sans {
     font-family: var(--font-albert-sans), "Albert Sans", sans-serif;
+  }
+
+  .font-inter {
+    font-family: var(--font-inter), "Inter", sans-serif;
   }
 }
