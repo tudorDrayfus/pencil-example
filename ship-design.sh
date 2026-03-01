@@ -11,7 +11,7 @@ fi
 # ── Commit ────────────────────────────────────────────────────────────────────
 echo ""
 echo "→ Committing …"
-git add app/page.tsx app/globals.css app/layout.tsx package.json package-lock.json design.pen ship-design.sh
+git add app/page.tsx app/globals.css app/layout.tsx package.json package-lock.json design.pen ship-design.sh images/
 
 git commit -m "design($VERSION): regenerate landing page from design.pen
 
