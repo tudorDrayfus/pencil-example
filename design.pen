@@ -3,490 +3,917 @@
   "children": [
     {
       "type": "frame",
-      "id": "U9YI5",
-      "x": 1849,
-      "y": 1300,
-      "name": "Workflow",
+      "id": "fAiVM",
+      "x": 1680,
+      "y": 1242,
+      "name": "Workflow Diagram - Dark",
       "clip": true,
-      "width": 2004,
-      "height": 613,
-      "fill": "#ffffffff",
-      "stroke": {
-        "align": "inside",
-        "thickness": 1
-      },
+      "width": 2200,
+      "height": 680,
+      "fill": "#0c0c10",
+      "cornerRadius": 16,
       "layout": "none",
       "children": [
         {
-          "type": "rectangle",
-          "cornerRadius": 4,
-          "id": "Nwq6m",
-          "x": 51,
-          "y": 50,
-          "name": "Rectangle 2",
-          "fill": "#f7f7f7ff",
-          "width": 102,
-          "height": 124,
-          "stroke": {
-            "align": "inside",
-            "thickness": 1
-          }
-        },
-        {
-          "type": "rectangle",
-          "cornerRadius": 4,
-          "id": "ozrzD",
-          "x": 51,
-          "y": 183,
-          "name": "Rectangle 3",
-          "fill": "#f7f7f7ff",
-          "width": 102,
-          "height": 124,
-          "stroke": {
-            "align": "inside",
-            "thickness": 1
-          }
-        },
-        {
-          "type": "rectangle",
-          "cornerRadius": 4,
-          "id": "drqeF",
-          "x": 219,
-          "y": 117,
-          "name": "Rectangle 5",
-          "fill": "#f7f7f7ff",
-          "width": 322,
-          "height": 228,
-          "stroke": {
-            "align": "inside",
-            "thickness": 1
-          }
-        },
-        {
-          "type": "rectangle",
-          "cornerRadius": 4,
-          "id": "NAU0C",
-          "x": 51,
-          "y": 315,
-          "name": "Rectangle 4",
-          "fill": "#f7f7f7ff",
-          "width": 102,
-          "height": 124,
-          "stroke": {
-            "align": "inside",
-            "thickness": 1
-          }
-        },
-        {
-          "type": "rectangle",
-          "cornerRadius": 4,
-          "id": "Cic10",
-          "x": 51,
-          "y": 447,
-          "name": "Rectangle 7",
-          "fill": "#f7f7f7ff",
-          "width": 102,
-          "height": 124,
-          "stroke": {
-            "align": "inside",
-            "thickness": 1
-          }
-        },
-        {
-          "type": "rectangle",
-          "cornerRadius": 4,
-          "id": "clEGe",
-          "x": 612,
-          "y": 183,
-          "name": "Rectangle 6",
-          "fill": "#f7f7f7ff",
-          "width": 102,
-          "height": 92,
-          "stroke": {
-            "align": "inside",
-            "thickness": 1
-          }
-        },
-        {
-          "type": "rectangle",
-          "cornerRadius": 4,
-          "id": "R8bMo",
-          "x": 1525,
-          "y": 183,
-          "name": "Rectangle 10",
-          "fill": "#f7f7f7ff",
-          "width": 102,
-          "height": 92,
-          "stroke": {
-            "align": "inside",
-            "thickness": 1
-          }
-        },
-        {
-          "type": "rectangle",
-          "cornerRadius": 4,
-          "id": "GHwFO",
-          "x": 1682,
-          "y": 183,
-          "name": "Rectangle 11",
-          "fill": "#f7f7f7ff",
-          "width": 102,
-          "height": 92,
-          "stroke": {
-            "align": "inside",
-            "thickness": 1
-          }
-        },
-        {
-          "type": "rectangle",
-          "cornerRadius": 4,
-          "id": "OxKqW",
-          "x": 1820,
-          "y": 183,
-          "name": "Rectangle 12",
-          "fill": "#f7f7f7ff",
-          "width": 102,
-          "height": 92,
-          "stroke": {
-            "align": "inside",
-            "thickness": 1
-          }
-        },
-        {
-          "type": "rectangle",
-          "cornerRadius": 4,
-          "id": "NFr9v",
-          "x": 785,
-          "y": 167,
-          "name": "Rectangle 8",
-          "fill": "#f7f7f7ff",
-          "width": 304,
-          "height": 116,
-          "stroke": {
-            "align": "inside",
-            "thickness": 1
-          }
-        },
-        {
-          "type": "rectangle",
-          "cornerRadius": 4,
-          "id": "PA3Xu",
-          "x": 1150,
-          "y": 76,
-          "name": "Rectangle 9",
-          "fill": "#f7f7f7ff",
-          "width": 304,
-          "height": 232,
-          "stroke": {
-            "align": "inside",
-            "thickness": 1
-          }
-        },
-        {
           "type": "text",
-          "id": "yf5ro",
-          "x": 74,
-          "y": 105,
-          "name": "DS library",
-          "fill": "#000000ff",
-          "content": "DS library",
-          "fontFamily": "Inter",
-          "fontSize": 10,
-          "fontWeight": "normal"
-        },
-        {
-          "type": "text",
-          "id": "yxl10",
-          "x": 71,
-          "y": 223,
-          "name": "DS components",
-          "fill": "#000000ff",
+          "id": "jaPEb",
+          "x": 40,
+          "y": 30,
+          "name": "note1",
+          "fill": "#ffffff66",
           "textGrowth": "fixed-width",
-          "width": 59,
-          "content": "DS components",
+          "width": 140,
+          "content": "full flexibility to explore ideas, both in Figma and directly in code",
           "fontFamily": "Inter",
           "fontSize": 10,
           "fontWeight": "normal"
         },
         {
           "type": "text",
-          "id": "eV7Qo",
-          "x": 242,
-          "y": 142,
-          "name": "UI Lab",
-          "fill": "#000000ff",
+          "id": "diq64",
+          "x": 200,
+          "y": 30,
+          "name": "note2",
+          "fill": "#ffffff66",
           "textGrowth": "fixed-width",
-          "width": 59,
-          "content": "UI Lab",
+          "width": 140,
+          "content": "anybody in the company is able to use this to express ideas.",
           "fontFamily": "Inter",
           "fontSize": 10,
           "fontWeight": "normal"
         },
         {
-          "type": "text",
-          "id": "G11VT",
-          "x": 242,
-          "y": 211,
-          "name": "Latest prototype in a repo linked to initiative A",
-          "fill": "#000000ff",
-          "content": "Latest prototype in a repo linked to initiative A",
-          "fontFamily": "Inter",
-          "fontSize": 10,
-          "fontWeight": "normal"
+          "type": "path",
+          "id": "6NTl0",
+          "x": 770,
+          "y": 240,
+          "name": "Arrow Input→Pencil",
+          "geometry": "M0 0l40 0",
+          "width": 40,
+          "height": 0,
+          "stroke": {
+            "align": "center",
+            "thickness": 1,
+            "fill": "#ffffff30"
+          }
         },
         {
           "type": "text",
-          "id": "I4SCQ",
-          "x": 261,
-          "y": 229,
-          "name": "Variant prototype on above",
-          "fill": "#000000ff",
-          "content": "Variant prototype on above",
-          "fontFamily": "Inter",
-          "fontSize": 10,
-          "fontWeight": "normal"
-        },
-        {
-          "type": "text",
-          "id": "L7bQJ",
-          "x": 261,
-          "y": 247,
-          "name": "Variant prototype on above",
-          "fill": "#000000ff",
-          "content": "Variant prototype on above",
-          "fontFamily": "Inter",
-          "fontSize": 10,
-          "fontWeight": "normal"
-        },
-        {
-          "type": "text",
-          "id": "jqY6Y",
-          "x": 242,
-          "y": 273,
-          "name": "Latest prototype in a repo linked to initiative B",
-          "fill": "#000000ff",
-          "content": "Latest prototype in a repo linked to initiative B",
-          "fontFamily": "Inter",
-          "fontSize": 10,
-          "fontWeight": "normal"
-        },
-        {
-          "type": "text",
-          "id": "kpyzx",
-          "x": 242,
-          "y": 305,
-          "name": "Create a new prototype",
-          "fill": "#000000ff",
-          "content": "Create a new prototype",
-          "fontFamily": "Inter",
-          "fontSize": 10,
-          "fontWeight": "normal"
-        },
-        {
-          "type": "text",
-          "id": "8jXkn",
-          "x": 242,
-          "y": 165,
-          "name": "Production",
-          "fill": "#000000ff",
-          "content": "Production",
-          "fontFamily": "Inter",
-          "fontSize": 10,
-          "fontWeight": "normal"
-        },
-        {
-          "type": "text",
-          "id": "3MmQv",
-          "x": 242,
-          "y": 185,
-          "name": "Dev",
-          "fill": "#000000ff",
-          "content": "Dev",
-          "fontFamily": "Inter",
-          "fontSize": 10,
-          "fontWeight": "normal"
-        },
-        {
-          "type": "text",
-          "id": "HVE5P",
-          "x": 67,
-          "y": 340,
-          "name": "Use Wave API to check and fix accessibility",
-          "fill": "#000000ff",
+          "id": "XW4sL",
+          "x": 40,
+          "y": 80,
+          "name": "note3",
+          "fill": "#ffffff66",
           "textGrowth": "fixed-width",
-          "width": 73,
-          "content": "Use Wave API to check and fix accessibility",
+          "width": 160,
+          "content": "context, guidelines, metrics, design principles, component library must be extremely clear.",
           "fontFamily": "Inter",
           "fontSize": 10,
           "fontWeight": "normal"
         },
         {
-          "type": "text",
-          "id": "vpSwc",
-          "x": 65,
-          "y": 482,
-          "name": "Analytics data checking metrics, performamnce",
-          "fill": "#000000ff",
-          "textGrowth": "fixed-width",
-          "width": 73,
-          "content": "Analytics data checking metrics, performamnce",
-          "fontFamily": "Inter",
-          "fontSize": 10,
-          "fontWeight": "normal"
+          "type": "frame",
+          "id": "CHGTd",
+          "x": 230,
+          "y": 440,
+          "name": "DS Library",
+          "width": 120,
+          "height": 80,
+          "fill": "#16161e",
+          "cornerRadius": 6,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#2a2a38"
+          },
+          "layout": "vertical",
+          "padding": 12,
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "afLx0",
+              "name": "ideaLabel1",
+              "fill": "#ffffffdd",
+              "content": "DS library",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "n2QeQ",
+              "name": "ideaDesc1",
+              "fill": "#ffffff80",
+              "textGrowth": "fixed-width",
+              "width": 96,
+              "content": "Drawings,\nloose Figma concepts.",
+              "fontFamily": "Inter",
+              "fontSize": 9,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "jvwYB",
+          "x": 230,
+          "y": 530,
+          "name": "DS Components",
+          "width": 120,
+          "height": 80,
+          "fill": "#16161e",
+          "cornerRadius": 6,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#2a2a38"
+          },
+          "layout": "vertical",
+          "padding": 12,
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "6ytj5",
+              "name": "ideaLabel2",
+              "fill": "#ffffffdd",
+              "content": "DS components",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "R53YI",
+              "name": "ideaDesc2",
+              "fill": "#ffffff80",
+              "content": "Product context",
+              "fontFamily": "Inter",
+              "fontSize": 9,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lPhyT",
+          "x": 360,
+          "y": 440,
+          "name": "Exploration Box",
+          "width": 120,
+          "height": 80,
+          "fill": "#16161e",
+          "cornerRadius": 6,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#2a2a38"
+          },
+          "layout": "vertical",
+          "padding": 12,
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "0idEw",
+              "name": "ideaLabel3",
+              "fill": "#ffffffdd",
+              "content": "Exploration",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "HIbKY",
+              "name": "ideaDesc3",
+              "fill": "#ffffff80",
+              "textGrowth": "fixed-width",
+              "width": 96,
+              "content": "Drawings,\nloose Figma concepts.",
+              "fontFamily": "Inter",
+              "fontSize": 9,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "h9hrC",
+          "x": 360,
+          "y": 530,
+          "name": "Context Box",
+          "width": 120,
+          "height": 80,
+          "fill": "#16161e",
+          "cornerRadius": 6,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#2a2a38"
+          },
+          "layout": "vertical",
+          "padding": 12,
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "eNRw7",
+              "name": "ideaLabel4",
+              "fill": "#ffffffdd",
+              "content": "Context",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "F5hFJ",
+              "name": "ideaDesc4",
+              "fill": "#ffffff80",
+              "content": "Product context",
+              "fontFamily": "Inter",
+              "fontSize": 9,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "LOxG4",
+          "x": 230,
+          "y": 120,
+          "name": "Product Hub",
+          "width": 340,
+          "height": 260,
+          "fill": "#16161e",
+          "cornerRadius": 6,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#2a2a38"
+          },
+          "layout": "vertical",
+          "gap": 6,
+          "padding": [
+            16,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "pfuve",
+              "name": "hubTitle",
+              "fill": "#ffffffee",
+              "content": "Product Hub",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "600"
+            },
+            {
+              "type": "rectangle",
+              "id": "Oqhq9",
+              "name": "hubSep",
+              "fill": "#2a2a38",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "text",
+              "id": "LyQKl",
+              "name": "hubProd",
+              "fill": "#ffffff90",
+              "content": "Production",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "GUIwv",
+              "name": "hubDev",
+              "fill": "#ffffff90",
+              "content": "Dev",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "rectangle",
+              "id": "ZgAO6",
+              "name": "hubSep2",
+              "fill": "#1e1e28",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "text",
+              "id": "c2pdz",
+              "name": "hubProtoA",
+              "fill": "#ffffffcc",
+              "content": "Latest prototype in a repo linked to initiative A",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "2qn6O",
+              "name": "hubVar1",
+              "fill": "#ffffff60",
+              "content": "  Variant prototype on above",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "TjzKY",
+              "name": "hubVar2",
+              "fill": "#ffffff60",
+              "content": "  Variant prototype on above",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "GoS3K",
+              "name": "hubProtoB",
+              "fill": "#ffffffcc",
+              "content": "Latest prototype in a repo linked to initiative B",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "rectangle",
+              "id": "2Na6O",
+              "name": "hubSep3",
+              "fill": "#1e1e28",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "text",
+              "id": "LjxjQ",
+              "name": "hubCreate",
+              "fill": "#ffffff50",
+              "content": "Create a new prototype",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "8lPnN",
+          "x": 643,
+          "y": 190,
+          "name": "Input Source",
+          "width": 131,
+          "height": 100,
+          "fill": "#16161e",
+          "cornerRadius": 6,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#2a2a38"
+          },
+          "layout": "vertical",
+          "gap": 4,
+          "padding": 12,
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "oLKqC",
+              "name": "inputLabel",
+              "fill": "#ffffffee",
+              "content": "Input",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "FF43x",
+              "name": "inputItem1",
+              "fill": "#ffffffaa",
+              "content": "Prompt",
+              "fontFamily": "Inter",
+              "fontSize": 9,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "5Hkd2",
+              "name": "inputItem2",
+              "fill": "#ffffffaa",
+              "content": "Jira story",
+              "fontFamily": "Inter",
+              "fontSize": 9,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "dIVLF",
+              "name": "inputItem4",
+              "fill": "#ffffffaa",
+              "content": "Existing page, folder, repo",
+              "fontFamily": "Inter",
+              "fontSize": 9,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "gWs9A",
+              "name": "inputItem3",
+              "fill": "#ffffffaa",
+              "content": "Design",
+              "fontFamily": "Inter",
+              "fontSize": 9,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "gcs90",
+          "x": 810,
+          "y": 170,
+          "name": "Pencil Editor",
+          "width": 320,
+          "height": 130,
+          "fill": "#16161e",
+          "cornerRadius": 6,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#2a2a38"
+          },
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            14,
+            18
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "fja91",
+              "name": "pencilPrompt",
+              "fill": "#ffffff40",
+              "textGrowth": "fixed-width",
+              "width": 280,
+              "content": "Create a new page layout...",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "ahwUt",
+              "name": "pencilContext",
+              "fill": "#ffffffcc",
+              "content": "+Precise context",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "VpCgt",
+              "name": "pencilTabs",
+              "width": "fill_container",
+              "height": 20,
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "kMfwN",
+                  "name": "pencilPage",
+                  "fill": "#ffffff60",
+                  "content": "Page",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "jQuhy",
+                  "name": "pencilElem",
+                  "fill": "#ffffff60",
+                  "content": "Element",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "lfpYa",
+              "name": "Run Button",
+              "width": 60,
+              "height": 26,
+              "fill": "#ffffff18",
+              "cornerRadius": 4,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#ffffff30"
+              },
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "f6aua",
+                  "name": "runLabel",
+                  "fill": "#ffffffdd",
+                  "content": "Run",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "R7Ud3",
+          "x": 1180,
+          "y": 80,
+          "name": "Design Code in Pencil",
+          "width": 320,
+          "height": 320,
+          "fill": "#16161e",
+          "cornerRadius": 6,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#2a2a38"
+          },
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            16,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "ROFQJ",
+              "name": "designTitle",
+              "fill": "#ffffffee",
+              "content": "Design / code in Pencil.",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "600"
+            },
+            {
+              "type": "rectangle",
+              "id": "iwakd",
+              "name": "designSep",
+              "fill": "#2a2a38",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "text",
+              "id": "mbf4g",
+              "name": "designIter",
+              "fill": "#ffffffdd",
+              "content": "Iterating together",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "LegiI",
+              "name": "designDM",
+              "fill": "#ffffff90",
+              "content": "Direct manipulation",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "LBeaE",
+              "name": "designPrompt",
+              "fill": "#ffffff90",
+              "content": "Prompting",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "4whtK",
+              "name": "designFigma",
+              "fill": "#ffffff90",
+              "content": "Importing from Figma",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "uNrIk",
+          "x": 1560,
+          "y": 190,
+          "name": "Claude Match",
+          "width": 120,
+          "height": 100,
+          "fill": "#16161e",
+          "cornerRadius": 6,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#2a2a38"
+          },
+          "layout": "vertical",
+          "gap": 4,
+          "padding": 12,
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "J7Xkv",
+              "name": "vsBox1Label",
+              "fill": "#ffffffaa",
+              "textGrowth": "fixed-width",
+              "width": 96,
+              "content": "Claude to match code in git to code in Pencil.",
+              "fontFamily": "Inter",
+              "fontSize": 9,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "pBcog",
+          "x": 1720,
+          "y": 190,
+          "name": "Push to Main",
+          "width": 120,
+          "height": 100,
+          "fill": "#16161e",
+          "cornerRadius": 6,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#2a2a38"
+          },
+          "layout": "vertical",
+          "gap": 4,
+          "padding": 12,
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "IY1Z5",
+              "name": "vsBox2Label",
+              "fill": "#ffffffaa",
+              "textGrowth": "fixed-width",
+              "width": 96,
+              "content": "Push code to main",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zXujK",
+          "x": 1880,
+          "y": 190,
+          "name": "Deploy Vercel",
+          "width": 120,
+          "height": 100,
+          "fill": "#16161e",
+          "cornerRadius": 6,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#2a2a38"
+          },
+          "layout": "vertical",
+          "gap": 4,
+          "padding": 12,
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "GZV66",
+              "name": "vsBox3Label",
+              "fill": "#ffffffaa",
+              "textGrowth": "fixed-width",
+              "width": 96,
+              "content": "Redeployed automatically\n",
+              "fontFamily": "Inter",
+              "fontSize": 9,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "F3kFD",
+          "x": 1620,
+          "y": 320,
+          "name": "Wave API",
+          "width": 120,
+          "height": 80,
+          "fill": "#16161e",
+          "cornerRadius": 6,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#2a2a38"
+          },
+          "layout": "vertical",
+          "gap": 4,
+          "padding": 12,
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "XmKWz",
+              "name": "a11yLabel",
+              "fill": "#ffffffaa",
+              "textGrowth": "fixed-width",
+              "width": 96,
+              "content": "Wave API to check accessibility",
+              "fontFamily": "Inter",
+              "fontSize": 9,
+              "fontWeight": "normal"
+            }
+          ]
         },
         {
           "type": "text",
-          "id": "7s1HH",
-          "x": 628,
-          "y": 201,
-          "name": "Prompt Jira story Design Existing repo",
-          "fill": "#000000ff",
-          "textGrowth": "fixed-width",
-          "width": 74,
-          "content": "Prompt\nJira story\nDesign\nExisting repo",
+          "id": "YQ6Bx",
+          "x": 640,
+          "y": 175,
+          "name": "sectionLabel2",
+          "fill": "#ffffff40",
+          "content": "CONTEXT",
           "fontFamily": "Inter",
-          "fontSize": 10,
-          "fontWeight": "normal"
+          "fontSize": 9,
+          "fontWeight": "500",
+          "letterSpacing": 2
         },
         {
           "type": "text",
-          "id": "LRQWP",
-          "x": 1541,
-          "y": 203,
-          "name": "Claude to match code in git to code in Pencil.",
-          "fill": "#000000ff",
-          "textGrowth": "fixed-width",
-          "width": 74,
-          "content": "Claude to match code in git to code in Pencil.",
+          "id": "liJSN",
+          "x": 810,
+          "y": 153,
+          "name": "sectionLabel3",
+          "fill": "#ffffff40",
+          "content": "CLI",
           "fontFamily": "Inter",
-          "fontSize": 10,
-          "fontWeight": "normal"
+          "fontSize": 9,
+          "fontWeight": "500",
+          "letterSpacing": 2
         },
         {
           "type": "text",
-          "id": "WsG1G",
-          "x": 1698,
-          "y": 211,
-          "name": "Push code to main",
-          "fill": "#000000ff",
-          "textGrowth": "fixed-width",
-          "width": 74,
-          "content": "Push code to main",
-          "fontFamily": "Inter",
-          "fontSize": 10,
-          "fontWeight": "normal"
-        },
-        {
-          "type": "text",
-          "id": "k0PB6",
-          "x": 1836,
-          "y": 211,
-          "name": "Redeployed automatically",
-          "fill": "#000000ff",
-          "textGrowth": "fixed-width",
-          "width": 74,
-          "content": "Redeployed automatically",
-          "fontFamily": "Inter",
-          "fontSize": 10,
-          "fontWeight": "normal"
-        },
-        {
-          "type": "text",
-          "id": "fjlod",
-          "x": 805,
-          "y": 244,
-          "name": "+Precise context",
-          "fill": "#000000ff",
-          "content": "+Precise context",
-          "fontFamily": "Inter",
-          "fontSize": 10,
-          "fontWeight": "normal"
-        },
-        {
-          "type": "text",
-          "id": "ZIVuz",
-          "x": 1150,
-          "y": 54,
-          "name": "Design / code in Pencil.",
-          "fill": "#000000ff",
-          "content": "Design / code in Pencil.",
-          "fontFamily": "Inter",
-          "fontSize": 10,
-          "fontWeight": "normal"
-        },
-        {
-          "type": "text",
-          "id": "iKFy1",
+          "id": "f0beA",
           "x": 1260,
-          "y": 180,
-          "name": "Iterating together",
-          "fill": "#000000ff",
-          "content": "Iterating together",
+          "y": 65,
+          "name": "sectionLabel4",
+          "fill": "#ffffff40",
+          "content": "BUILD",
           "fontFamily": "Inter",
-          "fontSize": 10,
-          "fontWeight": "normal"
+          "fontSize": 9,
+          "fontWeight": "500",
+          "letterSpacing": 2
         },
         {
           "type": "text",
-          "id": "6ELaT",
-          "x": 1274,
-          "y": 197,
-          "name": "Direct manipulation",
-          "fill": "#00000099",
-          "content": "Direct manipulation",
+          "id": "V3uls",
+          "x": 1560,
+          "y": 173,
+          "name": "sectionLabel5",
+          "fill": "#ffffff40",
+          "content": "VS CODE",
           "fontFamily": "Inter",
-          "fontSize": 10,
-          "fontWeight": "normal"
+          "fontSize": 9,
+          "fontWeight": "500",
+          "letterSpacing": 2
+        },
+        {
+          "type": "path",
+          "id": "oNUc2",
+          "x": 570,
+          "y": 240,
+          "name": "Arrow Hub→Input",
+          "geometry": "M0 0l60 0",
+          "width": 60,
+          "height": 0,
+          "stroke": {
+            "align": "center",
+            "thickness": 1,
+            "fill": "#ffffff30"
+          }
+        },
+        {
+          "type": "path",
+          "id": "rVX3q",
+          "x": 1500,
+          "y": 240,
+          "name": "Arrow Design→VS",
+          "geometry": "M0 0l50 0",
+          "width": 50,
+          "height": 0,
+          "stroke": {
+            "align": "center",
+            "thickness": 1,
+            "fill": "#ffffff30"
+          }
+        },
+        {
+          "type": "path",
+          "id": "TzZtH",
+          "x": 1680,
+          "y": 240,
+          "name": "Arrow VS1→VS2",
+          "geometry": "M0 0l30 0",
+          "width": 30,
+          "height": 0,
+          "stroke": {
+            "align": "center",
+            "thickness": 1,
+            "fill": "#ffffff30"
+          }
+        },
+        {
+          "type": "path",
+          "id": "nW2Yk",
+          "x": 1840,
+          "y": 240,
+          "name": "Arrow VS2→VS3",
+          "geometry": "M0 0l30 0",
+          "width": 30,
+          "height": 0,
+          "stroke": {
+            "align": "center",
+            "thickness": 1,
+            "fill": "#ffffff30"
+          }
         },
         {
           "type": "text",
-          "id": "9jdVO",
-          "x": 1274,
-          "y": 213,
-          "name": "Prompting",
-          "fill": "#00000099",
-          "content": "Prompting",
+          "id": "0xyPO",
+          "x": 1720,
+          "y": 173,
+          "name": "sectionLabel5",
+          "fill": "#ffffff40",
+          "content": "GIT",
           "fontFamily": "Inter",
-          "fontSize": 10,
-          "fontWeight": "normal"
+          "fontSize": 9,
+          "fontWeight": "500",
+          "letterSpacing": 2
         },
         {
           "type": "text",
-          "id": "IeJd3",
-          "x": 1041,
-          "y": 244,
-          "name": "Page",
-          "fill": "#000000ff",
-          "content": " Page",
+          "id": "jj1W3",
+          "x": 1880,
+          "y": 176,
+          "name": "sectionLabel5",
+          "fill": "#ffffff40",
+          "content": "VERCEL",
           "fontFamily": "Inter",
-          "fontSize": 10,
-          "fontWeight": "normal"
+          "fontSize": 9,
+          "fontWeight": "500",
+          "letterSpacing": 2
         },
         {
-          "type": "text",
-          "id": "Iy7Ti",
-          "x": 995,
-          "y": 244,
-          "name": "Feature",
-          "fill": "#000000ff",
-          "content": "Feature",
-          "fontFamily": "Inter",
-          "fontSize": 10,
-          "fontWeight": "normal"
-        },
-        {
-          "type": "text",
-          "id": "dprAW",
-          "x": 805,
-          "y": 194,
-          "name": "Create a new page layout...",
-          "fill": "#00000080",
-          "textGrowth": "fixed-width",
-          "width": 180,
-          "content": "Create a new page layout...",
-          "fontFamily": "Inter",
-          "fontSize": 10,
-          "fontWeight": "normal"
+          "type": "path",
+          "id": "oTK5V",
+          "x": 1180,
+          "y": 290,
+          "name": "Feedback Jira→Pencil",
+          "rotation": -90,
+          "geometry": "M0 50l80 0 0-50",
+          "width": 80,
+          "height": 474,
+          "stroke": {
+            "align": "center",
+            "thickness": 1,
+            "fill": "#ffffff12"
+          }
         }
       ]
     }
